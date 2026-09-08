@@ -1,0 +1,85 @@
+{
+  "id": "cn-three-mountains-five-peaks",
+  "version": "1.0.0",
+  "title": "中国三山五岳名山录",
+  "description": "中华名山之精华，收录黄山、庐山、雁荡山“三山”与泰山、华山、衡山、恒山、嵩山“五岳”共八座传世名胜地标。",
+  "contributor": "ZounaLa 探索社",
+  "contributorLink": "https://github.com/zouna-la/map",
+  "coordType": "wgs84",
+  "category": "名山胜景",
+  "themeColor": "#2E7D32",
+  "points": [
+    {
+      "id": "huangshan",
+      "name": "黄山",
+      "lat": 30.1388,
+      "lon": 118.1747,
+      "category": "三山",
+      "badgeColor": "#2E7D32",
+      "description": "安徽黄山，以奇松、怪石、云海、温泉、冬雪“五绝”著称于世，素有“天下第一奇山”之美誉。"
+    },
+    {
+      "id": "lushan",
+      "name": "庐山",
+      "lat": 29.5667,
+      "lon": 115.9889,
+      "category": "三山",
+      "badgeColor": "#2E7D32",
+      "description": "江西庐山，北濒长江、东临鄱阳湖，以雄、奇、险、秀闻名，自古便有“匡庐奇秀甲天下”之赞誉。"
+    },
+    {
+      "id": "yandangshan",
+      "name": "雁荡山",
+      "lat": 28.3750,
+      "lon": 121.0500,
+      "category": "三山",
+      "badgeColor": "#2E7D32",
+      "description": "浙江雁荡山，位于温州乐清，开山凿胜始于南北朝，以灵峰、灵岩、大龙湫等秀拔奇绝的火山岩地貌著称。"
+    },
+    {
+      "id": "taishan",
+      "name": "泰山",
+      "lat": 36.2558,
+      "lon": 117.1075,
+      "category": "五岳",
+      "badgeColor": "#E67E22",
+      "description": "东岳泰山，位于山东泰安，巍峨耸立、五岳独尊，是中华民族的精神象征与历代帝王封禅圣地。"
+    },
+    {
+      "id": "huashan",
+      "name": "华山",
+      "lat": 34.4889,
+      "lon": 110.0889,
+      "category": "五岳",
+      "badgeColor": "#E67E22",
+      "description": "西岳华山，位于陕西渭南华阴，南接秦岭、北瞰黄河，以壁立千仞、奇险峻秀名冠天下，素有“奇险天下第一山”之称。"
+    },
+    {
+      "id": "hengshan-south",
+      "name": "衡山",
+      "lat": 27.2942,
+      "lon": 112.7308,
+      "category": "五岳",
+      "badgeColor": "#E67E22",
+      "description": "南岳衡山，位于湖南衡阳，七十二峰连绵苍翠，祝融峰雄踞其巅，以秀丽林壑与云海胜景著称，享有“五岳独秀”之美名。"
+    },
+    {
+      "id": "hengshan-north",
+      "name": "恒山",
+      "lat": 39.6708,
+      "lon": 113.7258,
+      "category": "五岳",
+      "badgeColor": "#E67E22",
+      "description": "北岳恒山，位于山西大同浑源，横亘塞北要冲，山势雄浑险要，自古即为兵家必争之地与道家洞天福地。"
+    },
+    {
+      "id": "songshan",
+      "name": "嵩山",
+      "lat": 34.4989,
+      "lon": 113.0292,
+      "category": "五岳",
+      "badgeColor": "#E67E22",
+      "description": "中岳嵩山，位于河南郑州登封，天地之中、嵩高维岳，拥有悠久的禅宗武术文化与太室少室三十六奇峰。"
+    }
+  ]
+}
