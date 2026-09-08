@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T20:15:00Z",
+  "updatedAt": "2026-09-08T20:35:00Z",
   "plugins": [
     {
       "id": "cn-three-mountains-five-peaks",
@@ -13,6 +13,19 @@
       "badgeColor": "#2E7D32",
       "pointsCount": 8,
       "downloadUrl": "https://map.zouna.la/plugins/cn-three-mountains-five-peaks.json",
+      "isPreset": false
+    },
+    {
+      "id": "cn-provincial-capitals",
+      "version": "1.0.0",
+      "title": "中国省会与首府城市",
+      "description": "收录中国 34 个省级行政区的省会城市、自治区首府、直辖市与特别行政区地标（包括台湾台北）。",
+      "contributor": "ZounaLa 探索社",
+      "contributorLink": "https://github.com/zouna-la/map",
+      "category": "人文地理",
+      "badgeColor": "#3498DB",
+      "pointsCount": 34,
+      "downloadUrl": "https://map.zouna.la/plugins/cn-provincial-capitals.json",
       "isPreset": false
     }
   ]

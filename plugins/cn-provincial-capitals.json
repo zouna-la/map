@@ -1,0 +1,319 @@
+{
+  "id": "cn-provincial-capitals",
+  "version": "1.0.0",
+  "title": "中国省会与首府城市",
+  "description": "收录中国 34 个省级行政区的省会城市、自治区首府、直辖市与特别行政区地标（包括台湾台北）。",
+  "contributor": "ZounaLa 探索社",
+  "contributorLink": "https://github.com/zouna-la/map",
+  "coordType": "wgs84",
+  "category": "人文地理",
+  "themeColor": "#3498DB",
+  "points": [
+    {
+      "id": "beijing",
+      "name": "北京",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "category": "直辖市",
+      "badgeColor": "#E74C3C",
+      "description": "中华人民共和国首都，全国政治、文化、国际交往和科技创新中心。"
+    },
+    {
+      "id": "tianjin",
+      "name": "天津",
+      "lat": 39.0842,
+      "lon": 117.2009,
+      "category": "直辖市",
+      "badgeColor": "#E74C3C",
+      "description": "北方最大港口城市，国家物流枢纽与先进制造研发基地。"
+    },
+    {
+      "id": "shanghai",
+      "name": "上海",
+      "lat": 31.2304,
+      "lon": 121.4737,
+      "category": "直辖市",
+      "badgeColor": "#E74C3C",
+      "description": "国际经济、金融、贸易、航运和科技创新中心。"
+    },
+    {
+      "id": "chongqing",
+      "name": "重庆",
+      "lat": 29.563,
+      "lon": 106.5516,
+      "category": "直辖市",
+      "badgeColor": "#E74C3C",
+      "description": "长江上游地区经济中心，国家重要现代制造业基地与山城枢纽。"
+    },
+    {
+      "id": "shijiazhuang",
+      "name": "石家庄",
+      "lat": 38.0428,
+      "lon": 114.5149,
+      "category": "华北省会",
+      "badgeColor": "#3498DB",
+      "description": "河北省省会，京津冀地区重要中心城市。"
+    },
+    {
+      "id": "taiyuan",
+      "name": "太原",
+      "lat": 37.8706,
+      "lon": 112.5489,
+      "category": "华北省会",
+      "badgeColor": "#3498DB",
+      "description": "山西省省会，华夏文明摇篮之一，锦绣太原城。"
+    },
+    {
+      "id": "shenyang",
+      "name": "沈阳",
+      "lat": 41.8057,
+      "lon": 123.4315,
+      "category": "东北省会",
+      "badgeColor": "#2980B9",
+      "description": "辽宁省省会，东北地区重要中心城市与先进装备制造业基地。"
+    },
+    {
+      "id": "changchun",
+      "name": "长春",
+      "lat": 43.8171,
+      "lon": 125.3235,
+      "category": "东北省会",
+      "badgeColor": "#2980B9",
+      "description": "吉林省省会，“北国春城”，中国汽车工业摇篮与电影之都。"
+    },
+    {
+      "id": "harbin",
+      "name": "哈尔滨",
+      "lat": 45.8038,
+      "lon": 126.535,
+      "category": "东北省会",
+      "badgeColor": "#2980B9",
+      "description": "黑龙江省省会，“冰城夏都”，欧亚大陆桥重要枢纽城市。"
+    },
+    {
+      "id": "nanjing",
+      "name": "南京",
+      "lat": 32.0603,
+      "lon": 118.7969,
+      "category": "华东省会",
+      "badgeColor": "#1ABC9C",
+      "description": "江苏省省会，六朝古都、十朝都会，东部地区重要中心城市。"
+    },
+    {
+      "id": "hangzhou",
+      "name": "杭州",
+      "lat": 30.2741,
+      "lon": 120.1551,
+      "category": "华东省会",
+      "badgeColor": "#1ABC9C",
+      "description": "浙江省省会，“人间天堂”，全球领先的数字经济与互联网创新之城。"
+    },
+    {
+      "id": "hefei",
+      "name": "合肥",
+      "lat": 31.8206,
+      "lon": 117.2272,
+      "category": "华东省会",
+      "badgeColor": "#1ABC9C",
+      "description": "安徽省省会，大湖名城、创新高地，综合性国家科学中心。"
+    },
+    {
+      "id": "fuzhou",
+      "name": "福州",
+      "lat": 26.0745,
+      "lon": 119.2965,
+      "category": "华东省会",
+      "badgeColor": "#1ABC9C",
+      "description": "福建省省会，“榕城”，海丝核心区门户与海峡两岸融合发展示范区。"
+    },
+    {
+      "id": "nanchang",
+      "name": "南昌",
+      "lat": 28.6829,
+      "lon": 115.8582,
+      "category": "华东省会",
+      "badgeColor": "#1ABC9C",
+      "description": "江西省省会，“英雄城”，军旗升起的地方，赣江明珠。"
+    },
+    {
+      "id": "jinan",
+      "name": "济南",
+      "lat": 36.6512,
+      "lon": 117.1201,
+      "category": "华东省会",
+      "badgeColor": "#1ABC9C",
+      "description": "山东省省会，“泉城”，四面荷花三面柳，一城山色半城湖。"
+    },
+    {
+      "id": "zhengzhou",
+      "name": "郑州",
+      "lat": 34.7466,
+      "lon": 113.6253,
+      "category": "华中省会",
+      "badgeColor": "#F39C12",
+      "description": "河南省省会，华夏之根、黄帝故里，国家综合交通枢纽与中原城市群核心。"
+    },
+    {
+      "id": "wuhan",
+      "name": "武汉",
+      "lat": 30.5928,
+      "lon": 114.3055,
+      "category": "华中省会",
+      "badgeColor": "#F39C12",
+      "description": "湖北省省会，“九省通衢”，长江经济带核心城市与大学之城。"
+    },
+    {
+      "id": "changsha",
+      "name": "长沙",
+      "lat": 28.2282,
+      "lon": 112.9388,
+      "category": "华中省会",
+      "badgeColor": "#F39C12",
+      "description": "湖南省省会，“楚汉名城”，湖湘文化发源地与充满活力的媒体艺术之都。"
+    },
+    {
+      "id": "guangzhou",
+      "name": "广州",
+      "lat": 23.1291,
+      "lon": 113.2644,
+      "category": "华南省会",
+      "badgeColor": "#E67E22",
+      "description": "广东省省会，“千年商都”、“羊城”，粤港澳大湾区核心引擎城市。"
+    },
+    {
+      "id": "haikou",
+      "name": "海口",
+      "lat": 20.044,
+      "lon": 110.1999,
+      "category": "华南省会",
+      "badgeColor": "#E67E22",
+      "description": "海南省省会，“椰城”，海南自贸港核心引领城市与滨海枢纽。"
+    },
+    {
+      "id": "chengdu",
+      "name": "成都",
+      "lat": 30.5728,
+      "lon": 104.0668,
+      "category": "西南省会",
+      "badgeColor": "#9B59B6",
+      "description": "四川省省会，“天府之国”，雪山下的公园城市，西南科技与经济中心。"
+    },
+    {
+      "id": "guiyang",
+      "name": "贵阳",
+      "lat": 26.6477,
+      "lon": 106.6302,
+      "category": "西南省会",
+      "badgeColor": "#9B59B6",
+      "description": "贵州省省会，“林城”、“爽爽贵阳”，首个国家级大数据综合试验区核心。"
+    },
+    {
+      "id": "kunming",
+      "name": "昆明",
+      "lat": 25.0406,
+      "lon": 102.7123,
+      "category": "西南省会",
+      "badgeColor": "#9B59B6",
+      "description": "云南省省会，“春城”，面向南亚东南亚的国际化枢纽门户。"
+    },
+    {
+      "id": "xian",
+      "name": "西安",
+      "lat": 34.3416,
+      "lon": 108.9398,
+      "category": "西北省会",
+      "badgeColor": "#8E44AD",
+      "description": "陕西省省会，十三朝古都，古丝绸之路起点，国家中心城市。"
+    },
+    {
+      "id": "lanzhou",
+      "name": "兰州",
+      "lat": 36.0611,
+      "lon": 103.8343,
+      "category": "西北省会",
+      "badgeColor": "#8E44AD",
+      "description": "甘肃省省会，黄河穿城而过的丝路明珠与西北重镇。"
+    },
+    {
+      "id": "xining",
+      "name": "西宁",
+      "lat": 36.6232,
+      "lon": 101.7789,
+      "category": "西北省会",
+      "badgeColor": "#8E44AD",
+      "description": "青海省省会，“海藏咽喉”，青藏高原明珠与三江之源重要门户。"
+    },
+    {
+      "id": "taipei",
+      "name": "台北",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "category": "省会/中心",
+      "badgeColor": "#16A085",
+      "description": "台湾地区主要中心城市，坐落于台北盆地，拥有台北101与深厚文创底蕴。"
+    },
+    {
+      "id": "hohhot",
+      "name": "呼和浩特",
+      "lat": 40.8415,
+      "lon": 111.7519,
+      "category": "自治区首府",
+      "badgeColor": "#27AE60",
+      "description": "内蒙古自治区首府，“青城”，中国乳都与北疆重要枢纽。"
+    },
+    {
+      "id": "nanning",
+      "name": "南宁",
+      "lat": 22.817,
+      "lon": 108.3665,
+      "category": "自治区首府",
+      "badgeColor": "#27AE60",
+      "description": "广西壮族自治区首府，“绿城”，中国—东盟博览会永久举办地。"
+    },
+    {
+      "id": "lhasa",
+      "name": "拉萨",
+      "lat": 29.6525,
+      "lon": 91.1721,
+      "category": "自治区首府",
+      "badgeColor": "#27AE60",
+      "description": "西藏自治区首府，“日光城”，雪域高原的圣洁之地与布达拉宫所在地。"
+    },
+    {
+      "id": "yinchuan",
+      "name": "银川",
+      "lat": 38.4872,
+      "lon": 106.2309,
+      "category": "自治区首府",
+      "badgeColor": "#27AE60",
+      "description": "宁夏回族自治区首府，“塞上江南”，贺兰山护佑的凤凰城。"
+    },
+    {
+      "id": "urumqi",
+      "name": "乌鲁木齐",
+      "lat": 43.8256,
+      "lon": 87.6168,
+      "category": "自治区首府",
+      "badgeColor": "#27AE60",
+      "description": "新疆维吾尔自治区首府，亚欧大陆地理中心，丝绸之路经济带核心节点。"
+    },
+    {
+      "id": "hongkong",
+      "name": "香港",
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "category": "特别行政区",
+      "badgeColor": "#C0392B",
+      "description": "香港特别行政区，“东方之珠”，国际金融、航运、贸易中心。"
+    },
+    {
+      "id": "macao",
+      "name": "澳门",
+      "lat": 22.1987,
+      "lon": 113.5439,
+      "category": "特别行政区",
+      "badgeColor": "#C0392B",
+      "description": "澳门特别行政区，世界旅游休闲中心，中西文化交相辉映的历史名城。"
+    }
+  ]
+}
