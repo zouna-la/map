@@ -82,6 +82,35 @@
 
 ---
 
+## 辅助开发工具：获取与精简多边形边界 (Helpful Tooling)
+
+开发涉及景区、公园、城市等大区域多边形（`boundary`）插件时，推荐使用以下两个免费开源的工具快速制备高水准数据：
+
+### 1. 获取区域边界：Overpass Turbo (OpenStreetMap)
+- **在线工具**：[Overpass Turbo (overpass-turbo.eu)](https://overpass-turbo.eu/)
+- **使用方法**：在左侧代码编辑器中输入查询语句，以检索“黄山风景区”为例：
+  ```ql
+  [out:json][timeout:60];
+  (
+    relation["name"~"黄山风景区"];
+    way["name"~"黄山风景区"];
+  );
+  out geom;
+  ```
+- **导出数据**：点击界面左上角 **「Run（运行）」**，右侧地图高亮后点击顶部 **「Export（导出）」 $\rightarrow$「GeoJSON」** 即可下载多边形数据文件。
+- *(小技巧：也可直接使用 OSM 官方接口一行获取：`https://nominatim.openstreetmap.org/search?q=地名&format=geojson&polygon_geojson=1`)*。
+
+### 2. 抽稀与精简点位：Mapshaper
+- **在线工具**：[Mapshaper (mapshaper.org)](https://mapshaper.org/)
+- **为什么需要抽稀**：OSM 导出的原始边界往往包含数千个高密点位（几十至上百 KB），直接放入插件会导致 JSON 文件冗余庞大并增加手机解析开销。
+- **操作步骤**：
+  1. 将下载的 GeoJSON 文件直接拖拽入 Mapshaper 网页；
+  2. 点击右上角 **「Simplify」**（使用默认 Douglas-Peucker 算法）；
+  3. 将滑块调节至 **5% ~ 10%**（点数将从数千点智能精简至 100 ~ 250 个核心特征点，在手机地图上呈现毫厘不差，体积缩减 90% 以上）；
+  4. 点击右上角 **「Export」 $\rightarrow$「GeoJSON」** 导出，将坐标数组复制到插件的 `boundary: [[lon, lat], ...]` 即可。
+
+---
+
 ## 社区提交规范与内容红线 (Community Guidelines)
 
 为保障广大走哪啦（ZounaLa）用户的探索体验与数据健康，所有提交或修改的地图插件必须严格遵守以下规范。违规内容将直接被拒绝合并（Close PR）：

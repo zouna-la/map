@@ -82,6 +82,35 @@ Each plugin resides at `plugins/<plugin-id>.json`. The standard schema is illust
 
 ---
 
+## Helpful Tooling: Acquiring & Simplifying Boundary Polygons
+
+When creating thematic maps involving scenic areas, national parks, or city boundaries (`boundary`), the following free, open-source tools streamline the workflow:
+
+### 1. Acquiring Polygon Boundaries: Overpass Turbo (OpenStreetMap)
+- **Web Tool**: [Overpass Turbo (overpass-turbo.eu)](https://overpass-turbo.eu/)
+- **Usage**: Enter an Overpass QL query in the code editor. For example, to query "Mount Huangshan":
+  ```ql
+  [out:json][timeout:60];
+  (
+    relation["name"~"黄山风景区"];
+    way["name"~"黄山风景区"];
+  );
+  out geom;
+  ```
+- **Export**: Click **Run** on the top-left, verify the highlighted area on the map, then select **Export $\rightarrow$ GeoJSON** to download the polygon file.
+- *(Tip: You can also query the official OSM Nominatim endpoint in one line: `https://nominatim.openstreetmap.org/search?q=LocationName&format=geojson&polygon_geojson=1`)*.
+
+### 2. Simplifying Vertices: Mapshaper
+- **Web Tool**: [Mapshaper (mapshaper.org)](https://mapshaper.org/)
+- **Why Simplify?**: Raw polygons from OSM often consist of 1,000–3,000+ dense coordinate pairs (50–150 KB). Embedding raw geometry creates bloated plugins and excessive mobile parsing overhead.
+- **Workflow**:
+  1. Drag and drop your downloaded GeoJSON directly into Mapshaper;
+  2. Click **Simplify** in the top-right toolbar (using the default Douglas-Peucker algorithm);
+  3. Adjust the slider to **5%–10%** (reducing vertices to 100–250 core landmark points without visible degradation on mobile screens, saving 90%+ in payload size);
+  4. Click **Export $\rightarrow$ GeoJSON** and copy the coordinates array into your plugin's `boundary: [[lon, lat], ...]`.
+
+---
+
 ## Community Submission Guidelines & Content Redlines
 
 To maintain a healthy, trustworthy, and premium exploration experience for all ZounaLa users, every submitted or updated map plugin must strictly adhere to the following standards. Non-compliant submissions will be rejected without merge:
