@@ -3,14 +3,14 @@
 [English](README.md) | [简体中文](README_CN.md)
 
 Welcome to the open map ecosystem repository for [ZounaLa (走哪啦)](https://zouna.la).
-This repository is statically hosted via GitHub Pages at `https://map.zouna.la/`, delivering curated, community-driven thematic map data and points of interest (POI) to ZounaLa users worldwide.
+This repository is statically hosted via GitHub Pages at `https://map.zouna.la/`, delivering curated, community-driven thematic map data and points/regions of interest to ZounaLa users worldwide.
 
 ---
 
 ## Directory Overview
 
 - `registry.json`: Global manifest cataloging all available plugins, metadata, versions, and endpoints.
-- `plugins/`: Standalone JSON data files containing points of interest for each theme:
+- `plugins/`: Standalone JSON data files containing points/regions of interest for each theme:
   - `cn-three-mountains-five-peaks.json`: Three Mountains and Five Sacred Peaks of China (8 prominent mountain landmarks)
   - `cn-provincial-capitals.json`: Provincial Capitals & Centers of China (34 provincial administrative centers, including Taipei)
 
@@ -33,6 +33,22 @@ Each plugin resides at `plugins/<plugin-id>.json`. The standard schema is illust
   "themeColor": "#3498DB",
   "points": [
     {
+      "id": "hangzhou",
+      "name": "杭州",
+      "lat": 30.2741,
+      "lon": 120.1551,
+      "category": "华东省会",
+      "badgeColor": "#1ABC9C",
+      "description": "浙江省省会，“人间天堂”，全球领先的数字经济与互联网创新之城。",
+      "boundaryType": "polygon",
+      "boundary": [
+        [120.1234, 30.1234],
+        [120.1567, 30.1456],
+        [120.1890, 30.1678],
+        [120.1234, 30.1234]
+      ]
+    },
+    {
       "id": "beijing",
       "name": "北京",
       "lat": 39.9042,
@@ -40,15 +56,6 @@ Each plugin resides at `plugins/<plugin-id>.json`. The standard schema is illust
       "category": "直辖市",
       "badgeColor": "#E74C3C",
       "description": "中华人民共和国首都，全国政治、文化、国际交往和科技创新中心。"
-    },
-    {
-      "id": "taipei",
-      "name": "台北",
-      "lat": 25.0330,
-      "lon": 121.5654,
-      "category": "省会/中心",
-      "badgeColor": "#16A085",
-      "description": "台湾地区主要中心城市，坐落于台北盆地，拥有台北101与深厚文创底蕴。"
     }
   ]
 }
@@ -59,7 +66,19 @@ Each plugin resides at `plugins/<plugin-id>.json`. The standard schema is illust
 - `version`: Semantic version string (e.g., `1.0.0`).
 - `coordType`: Coordinate reference system: `"wgs84"` (GPS, OpenStreetMap, Google Maps) or `"gcj02"` (Amap, Tencent Maps). The client automatically rectifies and transforms coordinates.
 - `themeColor`: Hex color code for the plugin theme, applied to progress bars and as a fallback marker tint.
-- `points`: Array of POI objects. Each point includes `id`, `name`, `lat`, and `lon`, with optional `category`, `badgeColor` (distinct marker tint), and `description`.
+- `points`: Array of POI / ROI objects:
+  - `id`: Unique point/region identifier (Required).
+  - `name`: Display name (Required).
+  - `lat`, `lon`: Center anchor coordinates (Required, used for badge pin positioning and map bounding box fitting).
+  - `category`: Category tag (Optional).
+  - `badgeColor`: Distinct marker/polygon tint color (Optional, e.g., `#1ABC9C`).
+  - `description`: Summary description (Optional).
+  - `boundaryType`: Geometry type (Optional, currently supports `"polygon"`).
+  - `boundary`: Coordinates array defining the closed polygon vertices (Optional, format: `[[lon1, lat1], [lon2, lat2], ...]`, following the GeoJSON standard with longitude preceding latitude).
+
+### Exploration & Check-in Matching Algorithm
+- **Polygon Area Mode**: If a point has `boundaryType: "polygon"` and contains valid vertices ($\ge 3$), the client automatically performs the **Ray-Casting (Point-in-Polygon) Algorithm**. Any user footprint falling inside the closed boundary will instantly unlock/illuminate this area! The map also renders a translucent polygon overlay.
+- **Physical Distance Mode**: If no boundary is configured or footprint falls outside, the client falls back to the default spherical physical distance check ($\le 1000$ meters from the center anchor).
 
 ---
 
