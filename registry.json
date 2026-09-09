@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T20:35:00Z",
+  "updatedAt": "2026-09-09T08:45:00Z",
   "plugins": [
     {
       "id": "cn-three-mountains-five-peaks",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "title": "中国三山五岳名山录",
       "description": "中华名山之精华，收录黄山、庐山、雁荡山“三山”与泰山、华山、衡山、恒山、嵩山“五岳”共八座传世名胜地标。",
       "contributor": "ZounaLa 探索社",
@@ -13,7 +13,8 @@
       "badgeColor": "#2E7D32",
       "pointsCount": 8,
       "downloadUrl": "https://map.zouna.la/plugins/cn-three-mountains-five-peaks.json",
-      "isPreset": false
+      "isPreset": false,
+      "updatedAt": "2026-09-09T08:45:00Z"
     },
     {
       "id": "cn-provincial-capitals",
