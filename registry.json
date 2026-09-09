@@ -3,6 +3,20 @@
   "updatedAt": "2026-09-09T08:45:00Z",
   "plugins": [
     {
+      "id": "cn-world-heritage",
+      "version": "1.1.0",
+      "title": "中国世界遗产名录",
+      "description": "中国是世界上拥有世界遗产数量最多的国家之一，涵盖文化遗产、自然遗产与双重遗产，代表着华夏大地璀璨的历史文明与壮丽山河。",
+      "contributor": "联合国教科文组织 (UNESCO)",
+      "contributorLink": "https://whc.unesco.org/en/statesparties/cn",
+      "category": "世界遗产",
+      "badgeColor": "#27AE60",
+      "pointsCount": 60,
+      "downloadUrl": "https://map.zouna.la/plugins/cn-world-heritage.json",
+      "isPreset": true,
+      "updatedAt": "2026-09-09T09:00:00Z"
+    },
+    {
       "id": "cn-three-mountains-five-peaks",
       "version": "1.1.0",
       "title": "中国三山五岳名山录",
