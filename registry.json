@@ -4,7 +4,7 @@
   "plugins": [
     {
       "id": "cn-world-heritage",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "title": "中国世界遗产名录",
       "description": "中国是世界上拥有世界遗产数量最多的国家之一，涵盖文化遗产、自然遗产与双重遗产，代表着华夏大地璀璨的历史文明与壮丽山河。",
       "contributor": "联合国教科文组织 (UNESCO)",
@@ -18,7 +18,7 @@
     },
     {
       "id": "cn-three-mountains-five-peaks",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "title": "中国三山五岳名山录",
       "description": "中华名山之精华，收录黄山、庐山、雁荡山“三山”与泰山、华山、衡山、恒山、嵩山“五岳”共八座传世名胜地标。",
       "contributor": "ZounaLa 探索社",
@@ -32,7 +32,7 @@
     },
     {
       "id": "cn-provincial-capitals",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "title": "中国省会与首府城市",
       "description": "收录中国 34 个省级行政区的省会城市、自治区首府、直辖市与特别行政区地标（包括台湾台北）。",
       "contributor": "ZounaLa 探索社",
