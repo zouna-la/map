@@ -8,6 +8,7 @@
   "coordType": "wgs84",
   "category": "名山胜景",
   "themeColor": "#2E7D32",
+  "showDirectNames": true,
   "points": [
     {
       "id": "huangshan",

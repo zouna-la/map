@@ -8,6 +8,7 @@
   "coordType": "wgs84",
   "category": "武侠江湖",
   "themeColor": "#2E7D32",
+  "showDirectNames": true,
   "points": [
     {
       "id": "honghuahui",

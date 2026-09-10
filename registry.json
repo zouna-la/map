@@ -28,6 +28,7 @@
       "pointsCount": 8,
       "downloadUrl": "https://map.zouna.la/plugins/cn-three-mountains-five-peaks.json",
       "isPreset": false,
+      "showDirectNames": true,
       "updatedAt": "2026-09-09T08:45:00Z"
     },
     {
@@ -55,6 +56,7 @@
       "pointsCount": 35,
       "downloadUrl": "https://map.zouna.la/plugins/cn-jinyong-sects.json",
       "isPreset": false,
+      "showDirectNames": true,
       "updatedAt": "2026-09-10T10:00:00Z"
     }
   ]

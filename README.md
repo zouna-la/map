@@ -66,6 +66,7 @@ Each plugin resides at `plugins/<plugin-id>.json`. The standard schema is illust
 - `version`: Semantic version string (e.g., `1.0.0`).
 - `coordType`: Coordinate reference system: `"wgs84"` (GPS, OpenStreetMap, Google Maps) or `"gcj02"` (Amap, Tencent Maps). The client automatically rectifies and transforms coordinates.
 - `themeColor`: Hex color code for the plugin theme, applied to progress bars and as a fallback marker tint.
+- `showDirectNames`: Whether to persistently display POI names directly underneath their map markers (Boolean, default `false`. Recommended for curated maps with relatively few POIs like sacred peaks, sects, etc.).
 - `points`: Array of POI / ROI objects:
   - `id`: Unique point/region identifier (Required).
   - `name`: Display name (Required).
