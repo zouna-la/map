@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T09:30:00Z",
+  "updatedAt": "2026-09-10T10:00:00Z",
   "plugins": [
     {
       "id": "cn-world-heritage",
@@ -42,6 +42,20 @@
       "pointsCount": 34,
       "downloadUrl": "https://map.zouna.la/plugins/cn-provincial-capitals.json",
       "isPreset": false
+    },
+    {
+      "id": "cn-jinyong-sects",
+      "version": "1.0.0",
+      "title": "金庸武侠门派分布图",
+      "description": "飞雪连天射白鹿，笑书神侠倚碧鸳。精选金庸十五部经典武侠巨作中三十五处名门正派、隐世秘宗与江湖势力地标。",
+      "contributor": "ZounaLa 探索社",
+      "contributorLink": "https://github.com/zouna-la/map",
+      "category": "武侠江湖",
+      "badgeColor": "#2E7D32",
+      "pointsCount": 35,
+      "downloadUrl": "https://map.zouna.la/plugins/cn-jinyong-sects.json",
+      "isPreset": false,
+      "updatedAt": "2026-09-10T10:00:00Z"
     }
   ]
 }
