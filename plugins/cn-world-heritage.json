@@ -16,6 +16,7 @@
       "lon": 117.1075,
       "category": "文化与自然双遗产",
       "badgeColor": "#27AE60",
+      "description": "泰山是著名的五岳之首与东方文化的重要摇篮，兼具非凡的历史、文化、美学与科学价值，在过去三千年间持续受到崇拜。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -347,6 +348,7 @@
       "lon": 116.007198,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "长城始建于公元前3世纪，是历代抵御游牧民族侵扰的重大军事防御工程，蜿蜒两万余公里，是中华民族坚韧不拔精神的象征。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -450,6 +452,7 @@
       "lon": 116.39083,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "明清故宫是中国明清两代的国家权力中心，北京紫禁城与沈阳故宫完整展现了中国传统宫殿建筑与木构营造技艺的至高成就。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -669,6 +672,7 @@
       "lon": 94.814,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "坐落于甘肃敦煌绿洲，拥有735座洞窟与数万平方米壁画彩塑，是世界上规模最大、延续时间最长的佛教艺术宝库。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -748,6 +752,7 @@
       "lon": 109.253611,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "中国首位大一统皇帝秦始皇的陵寝，其规模宏大的地下军阵兵马俑展现了秦代非凡的军事组织能力与高超的雕塑艺术。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -783,6 +788,7 @@
       "lon": 115.924475,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "周口店遗址发现了直立人‘北京人’以及早期智人化石，为人类起源与早期演化历史提供了举世公认的重大科学证据。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -858,6 +864,7 @@
       "lon": 118.18333,
       "category": "文化与自然双遗产",
       "badgeColor": "#27AE60",
+      "description": "被誉为‘天下第一奇山’，以奇松、怪石、云海、温泉‘四绝’闻名，是中国传统山水画与文学创作的重要灵感源泉。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -1189,6 +1196,7 @@
       "lon": 103.91667,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "位于四川阿坝藏区，以多级钙华瀑布、五彩斑斓的高山叠湖与原始森林著称，呈现如仙境般的童话世界自然奇观。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -1452,6 +1460,7 @@
       "lon": 103.82222,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "位于四川西北部，以壮观的露天高山钙华彩池群、雪山瀑布及森林生态闻名，宛如一条金色巨龙盘卧在雪山峡谷间。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -1675,6 +1684,7 @@
       "lon": 110.5,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "位于湖南张家界，拥有3000多座拔地而起的石英砂岩峰林与幽深峡谷，构成世所罕见的砂岩峰林地貌地质奇观。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -1830,6 +1840,7 @@
       "lon": 117.93833,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "清代皇帝夏日避暑与处理政务的皇家宫苑，融合江南园林与北方草原风光，周边外八庙展现了多民族文化的团结融合。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -2017,6 +2028,7 @@
       "lon": 116.984277,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "儒家学派创始人孔子的庙宇、家族墓地及后裔宅邸，历经两千余年修建与维护，是传承儒家思想与祭孔礼制的圣地。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -2092,6 +2104,7 @@
       "lon": 111.0,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "道教圣地与武当武术发源地，依山势错落建造了宏大的明代皇家道教宫观建筑群，展现了中国古代建筑与自然的和谐统一。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -2171,6 +2184,7 @@
       "lon": 91.11717,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "包含布达拉宫、大昭寺与罗布林卡，是藏传佛教的精神象征与传统政教中心，代表了藏族建筑、绘画与雕刻艺术的巅峰。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -2318,6 +2332,7 @@
       "lon": 115.973333,
       "category": "文化景观",
       "badgeColor": "#27AE60",
+      "description": "中华文明的灵性名山，集佛道名刹、理学书院与秀丽峰谷于一身，深厚的历史文化积淀与壮丽山水景观高度交融。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -2689,6 +2704,7 @@
       "lon": 103.379992,
       "category": "文化与自然双遗产",
       "badgeColor": "#27AE60",
+      "description": "中国四大佛教名山之一与普贤菩萨道场，山脚坐落着世界第一大石刻弥勒佛‘乐山大佛’，自然与文化遗产相映成辉。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -2844,6 +2860,7 @@
       "lon": 100.235558,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "始建于宋末元初的纳西族历史古城，保存了独特的纳西民居风貌、黑白木府建筑以及水系纵横贯通的独特古城格局。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3035,6 +3052,7 @@
       "lon": 112.143417,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "保存最完整的汉民族古代县城典范，保留了完整的城墙、街巷、票号与民居，展现了明清时期汉族城市的规划与商业繁荣。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3074,6 +3092,7 @@
       "lon": 120.624432,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "包含拙政园、留园等多座名园，融亭台楼阁、山水花木于方寸之间，被誉为‘咫尺之内再造乾坤’的中国文人园林杰作。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3213,6 +3232,7 @@
       "lon": 116.267126,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "以万寿山、昆明湖为主体，汲取江南园林设计手法而建成的庞大皇家园林，堪称中国古典园林造园艺术的集大成者。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3352,6 +3372,7 @@
       "lon": 116.403785,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "明清两代皇帝‘祭天’与‘祈谷’的专用祭坛，其圜丘与祈年殿构思精巧，深刻体现了中国古代‘天圆地方’与天人合一哲学。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3483,6 +3504,7 @@
       "lon": 105.763512,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "重庆大足境内的石窟造像群，以宝顶山与北山为代表，生动融合了儒、释、道三教造像艺术，代表了中国晚期石窟造像的高峰。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3542,6 +3564,7 @@
       "lon": 117.678821,
       "category": "文化与自然双遗产",
       "badgeColor": "#27AE60",
+      "description": "典型的丹霞地貌名山与朱子理学摇篮，九曲溪蜿蜒环绕三十六峰，同时保留着全球同纬度最完整的亚热带原生森林生态系统。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3585,6 +3608,7 @@
       "lon": 103.568664,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "都江堰是战国时期建成的伟大无坝引水灌溉工程，至今滋养天府之国；邻近的青城山为道教发源地之一，素有‘青城天下幽’美誉。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3812,6 +3836,7 @@
       "lon": 118.000079,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "保留着大量精美明清徽派建筑的古村落，宏村独特的牛形人工水系与西递的牌坊古民居，是徽州耕读文化与宗族社会的生动缩影。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -3979,6 +4004,7 @@
       "lon": 112.470674,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "位于洛阳伊河两岸悬崖峭壁上，始凿于北魏孝文帝年间，拥有奉先寺卢舍那大佛等十万余尊佛像，代表了中国皇家石刻艺术的巅峰。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -4150,6 +4176,7 @@
       "lon": 117.678241,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "涵盖明孝陵、明十三陵、清东陵、清西陵等，依中国传统风水理论营建，展现了明清两朝最高的丧葬礼制与陵寝建筑艺术。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -4225,6 +4252,7 @@
       "lon": 113.12222,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "开凿于北魏早期的大型佛教石窟群，造像融合了古印度、中亚犍陀罗与汉民族传统雕刻风格，是中西文化交融的早期艺术瑰宝。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -4416,6 +4444,7 @@
       "lon": 99.912959,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "金沙江、澜沧江、怒江三条大江在横断山脉自北向南并流而不交汇，是全球地形最复杂、温带生物多样性最丰富的天然温床。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -4595,6 +4624,7 @@
       "lon": 126.162,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "涵盖五女山城、国内城、丸都山城及多座帝王与贵族墓，见证了高句丽王朝在东北亚地区的兴衰历史与独特的丧葬文化。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -4674,6 +4704,7 @@
       "lon": 113.54,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "以妈阁庙、大三巴牌坊为代表的古老街区，完整见证了四百余年中华文化与葡萄牙西方文化在建筑、宗教与民俗上的交融共存。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -4753,6 +4784,7 @@
       "lon": 103.0,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "涵盖卧龙、四姑娘山与夹金山脉，保护着全球超过30%的野生大熊猫种群，是全球第三纪古热带残遗植物最丰富的重要庇护所。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -4968,6 +5000,7 @@
       "lon": 114.318,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "商代晚期都城遗址，在此出土了中国最早成熟的汉字系统‘甲骨文’以及司母戊鼎等辉煌青铜器，确立了中国信史的开端。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -5047,6 +5080,7 @@
       "lon": 103.323808,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "涵盖云南石林、贵州荔波、重庆武隆与金佛山、广西桂林等地貌，是全球热带至亚热带喀斯特地貌发育演化最壮观的系列标本。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -5190,6 +5224,7 @@
       "lon": 112.574,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "结合防卫、居住功能的多层塔楼式建筑，华侨将古罗马、哥特式等西方柱式与中国传统乡村建筑结合，是中西文化交流的独特范例。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -5269,6 +5304,7 @@
       "lon": 117.055941,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "闽南与客家人聚族而居的大型生土围合夯土建筑，依山就势、方圆结合，具备出色的防御与保暖通风性能，体现了尊祖敬宗的宗族传统。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -5380,6 +5416,7 @@
       "lon": 118.064444,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "位于江西怀玉山脉，以独特的柱状与锥状花岗岩峰林地貌闻名，巨蟒出山、司春女神等奇峰怪石在云海掩映下展现出神圣的道教仙境意境。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -5567,6 +5604,7 @@
       "lon": 113.563333,
       "category": "文化景观",
       "badgeColor": "#27AE60",
+      "description": "五座平坦如台的群峰环抱，中国四大佛教圣山之首与文殊菩萨道场，保存有南禅寺、佛光寺等唐宋木构建筑群与显密并存的寺庙文化。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -5774,6 +5812,7 @@
       "lon": 112.927158,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "位于嵩山腹地，包含周公测景台、少林寺、嵩岳寺塔等历代祭祀、天文与宗教建筑群，凝聚了华夏古代‘天地之中’的宇宙地理观。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -6105,6 +6144,7 @@
       "lon": 113.75268,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "涵盖贵州赤水、福建泰宁、湖南莨山、广东丹霞山、江西龙虎山、浙江江郎山，由红层砂岩经长期风化剥蚀形成壮丽的赤壁丹崖奇观。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -6184,6 +6224,7 @@
       "lon": 120.140833,
       "category": "文化景观",
       "badgeColor": "#27AE60",
+      "description": "由秀丽湖泊、环湖山峦与苏堤、白堤等众多名胜点缀，完美融合了‘天人合一’的造园美学，千百年来深刻影响了东亚园林与诗画艺术。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -6403,6 +6444,7 @@
       "lon": 116.185128,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "元朝开国皇帝忽必烈建立的草原夏都，融合了蒙古游牧民族习惯与中原汉地城池规划，是游牧文明与农耕文明交融的重大考古见证。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -6578,6 +6620,7 @@
       "lon": 102.977,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "保存了5.3亿年前早寒武纪生命大爆发时期的精美动物化石群，生动记录了寒武纪门类繁多的海洋古生物，是地球早期生命演化的窗口。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -6657,6 +6700,7 @@
       "lon": 88.13,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "涵盖托木尔峰、喀拉峻、巴音布鲁克与博格达等区域，在干旱温带荒漠包围中呈现出从雪山冰川、高山草甸到红层峡谷的壮美垂直自然景观。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -6736,6 +6780,7 @@
       "lon": 102.779981,
       "category": "文化景观",
       "badgeColor": "#27AE60",
+      "description": "哈尼族千百年来在哀牢山陡坡上开辟的万亩梯田，依靠独特的森林、村寨、梯田、水系‘四素同构’循环生态，形成了天人合一的壮丽农耕奇观。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -6979,6 +7024,7 @@
       "lon": 116.738332,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "始建于公元前5世纪并于隋唐全线贯通，纵贯中国南北数千里，是古代世界上里程最长、工程最宏大的内陆运河水系交通动脉。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7126,6 +7172,7 @@
       "lon": 108.862815,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "跨越五千公里连接汉唐都城与中亚七河地区的古道网络，沿线分布着长安城、未央宫、汉魏洛阳城、玉门关等见证东西方文明交流的众多遗址。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7157,6 +7204,7 @@
       "lon": 109.969622,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "涵盖湖南老司城、湖北唐崖与贵州海龙屯，见证了元、明、清中央王朝在西南少数民族地区任命世袭土司进行管治的独特制度。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7276,6 +7324,7 @@
       "lon": 107.01207,
       "category": "文化景观",
       "badgeColor": "#27AE60",
+      "description": "分布于广西左江沿岸喀斯特临水赭红色崖壁上，用赤铁矿粉绘制了战国至东汉骆越人的祭祀图腾与舞蹈盛况，展现了古代铜鼓文化的生动图景。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7355,6 +7404,7 @@
       "lon": 110.006694,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "位于华中生态过渡带的原始林区，地势高耸、森林茂密，保存有珍稀川金丝猴、珙桐等众多古老孑遗动植物，是华中物种基因库。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7494,6 +7544,7 @@
       "lon": 92.439,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "地处青藏高原腹地的高寒荒漠草原，平均海拔4500米以上，是藏羚羊、野牦牛等高原特有珍稀野生动物繁衍生息的原始净土。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7573,6 +7624,7 @@
       "lon": 118.061944,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "鸦片战争后开埠设立的国际社区，保留了900余栋融合闽南传统院落与西方古典、现代折衷主义风格的万国建筑群，展现了多元文化融合。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7792,6 +7844,7 @@
       "lon": 108.642508,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "武陵山脉主峰，宛如喀斯特海洋中的变质岩孤岛，孕育了黔金丝猴、梵净山冷杉等特有孤立物种，也是著名的佛教弥勒菩萨道场。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -7911,6 +7964,7 @@
       "lon": 120.618026,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "拥有世界最大的潮间带滩涂湿地系统，是东亚—澳大利西亚候鸟迁飞通道的关键停歇地与觅食地，每年为数百万迁徙候鸟提供不可替代的生存支撑。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -8118,6 +8172,7 @@
       "lon": 119.986758,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "距今约5300至4300年的早期区域性水利与城池中心，拥有规模宏大的水坝工程、精美玉礼器与阶级分化墓葬，实证了中华五千年文明史。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -8309,6 +8364,7 @@
       "lon": 118.581116,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "10至14世纪东方第一大港，由古港口、桥梁、宗教建筑、陶瓷与冶铁遗址构成完整海丝网络，展现了宋元海外贸易体系的高度繁荣。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -8412,6 +8468,7 @@
       "lon": 99.983957,
       "category": "文化景观",
       "badgeColor": "#27AE60",
+      "description": "布朗族与傣族先民千百年来在森林中人工驯化、培育高大乔木茶树所形成的古茶林复合生态系统，是世界上首个茶文化世界遗产。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -8571,6 +8628,7 @@
       "lon": 102.355,
       "category": "自然遗产",
       "badgeColor": "#27AE60",
+      "description": "位于阿拉善高原，拥有世界上最高的固定沙丘必鲁图峰与140余个色彩斑斓的高原内陆沙漠湖泊，构成了沙山与湖泊共生的奇绝地貌。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -8650,6 +8708,7 @@
       "lon": 116.389998,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "全长7.8公里贯穿老城核心，由永定门至钟鼓楼，包含故宫、天坛等15处建筑遗存，是中国古代都城规划哲学与传统礼制秩序的最高杰作。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -8809,6 +8868,7 @@
       "lon": 105.981429,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
+      "description": "西夏王朝（1038—1227年）历代帝王与皇家的宏大陵墓群，坐落于贺兰山东麓，融合了汉族传统陵寝与党项族游牧文化，素有‘东方金字塔’之称。",
       "boundaryType": "polygon",
       "boundary": [
         [
@@ -8960,7 +9020,7 @@
       "lon": 117.20144,
       "category": "文化遗产",
       "badgeColor": "#27AE60",
-      "description": "涵盖明清御窑厂国家考古遗址公园、陶阳里历史街区及高岭瓷土矿等系列遗存，见证了中国千年瓷都卓越的手工制瓷工艺体系与全球文化交流。",
+      "description": "展现了10至19世纪中国千年手工制瓷生产与贸易的完整演变历程，从矿料开采、窑炉烧造到集镇工坊格局，深刻影响了全球陶瓷艺术与工业贸易。",
       "boundaryType": "polygon",
       "boundary": [
         [
